@@ -14,7 +14,7 @@ cd "C:\Users\Lucho\Desktop\Final-Luis-Durand"
 docker build -t final-exam:latest .
 ```
 
-3) Ejecutar el contenedor (mapea puerto 8080 del host al 80 del contenedor):
+3) Ejecutar el contenedor (mapea puerto 8081 del host al 80 del contenedor):
 
 ```powershell
 docker run --rm -p 8081:80 final-exam:latest
